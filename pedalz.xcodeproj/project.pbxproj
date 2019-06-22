@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF26FBE722BE9986003FBFAE /* pedalz WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF26FBE622BE9986003FBFAE /* pedalz WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF26FBED22BE9986003FBFAE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF26FBEB22BE9986003FBFAE /* Interface.storyboard */; };
+		CF26FBEF22BE9987003FBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26FBEE22BE9987003FBFAE /* Assets.xcassets */; };
+		CF26FBF622BE9987003FBFAE /* pedalz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF26FBF522BE9987003FBFAE /* pedalz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF26FBFB22BE9987003FBFAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFA22BE9987003FBFAE /* ContentView.swift */; };
+		CF26FBFD22BE9987003FBFAE /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFC22BE9987003FBFAE /* HostingController.swift */; };
+		CF26FBFF22BE9987003FBFAE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFE22BE9987003FBFAE /* ExtensionDelegate.swift */; };
+		CF26FC0122BE9987003FBFAE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FC0022BE9987003FBFAE /* NotificationController.swift */; };
+		CF26FC0322BE9987003FBFAE /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FC0222BE9987003FBFAE /* NotificationView.swift */; };
+		CF26FC0522BE9987003FBFAE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FC0422BE9987003FBFAE /* ComplicationController.swift */; };
+		CF26FC0722BE9987003FBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26FC0622BE9987003FBFAE /* Assets.xcassets */; };
+		CF26FC0A22BE9987003FBFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26FC0922BE9987003FBFAE /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF26FBE822BE9986003FBFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26FBDC22BE9986003FBFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF26FBE522BE9986003FBFAE;
+			remoteInfo = "pedalz WatchKit App";
+		};
+		CF26FBF722BE9987003FBFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26FBDC22BE9986003FBFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF26FBF422BE9987003FBFAE;
+			remoteInfo = "pedalz WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF26FC1222BE9988003FBFAE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF26FBF622BE9987003FBFAE /* pedalz WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26FC1622BE9988003FBFAE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF26FBE722BE9986003FBFAE /* pedalz WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF26FBE222BE9986003FBFAE /* pedalz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pedalz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26FBE622BE9986003FBFAE /* pedalz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pedalz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26FBEC22BE9986003FBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CF26FBEE22BE9987003FBFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF26FBF022BE9987003FBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF26FBF522BE9987003FBFAE /* pedalz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pedalz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26FBFA22BE9987003FBFAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF26FBFC22BE9987003FBFAE /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		CF26FBFE22BE9987003FBFAE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CF26FC0022BE9987003FBFAE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CF26FC0222BE9987003FBFAE /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		CF26FC0422BE9987003FBFAE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CF26FC0622BE9987003FBFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF26FC0922BE9987003FBFAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF26FC0B22BE9987003FBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF26FC0C22BE9987003FBFAE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF26FBF222BE9987003FBFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF26FBDB22BE9986003FBFAE = {
+			isa = PBXGroup;
+			children = (
+				CF26FBEA22BE9986003FBFAE /* pedalz WatchKit App */,
+				CF26FBF922BE9987003FBFAE /* pedalz WatchKit Extension */,
+				CF26FBE322BE9986003FBFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF26FBE322BE9986003FBFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF26FBE222BE9986003FBFAE /* pedalz.app */,
+				CF26FBE622BE9986003FBFAE /* pedalz WatchKit App.app */,
+				CF26FBF522BE9987003FBFAE /* pedalz WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF26FBEA22BE9986003FBFAE /* pedalz WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CF26FBEB22BE9986003FBFAE /* Interface.storyboard */,
+				CF26FBEE22BE9987003FBFAE /* Assets.xcassets */,
+				CF26FBF022BE9987003FBFAE /* Info.plist */,
+			);
+			path = "pedalz WatchKit App";
+			sourceTree = "<group>";
+		};
+		CF26FBF922BE9987003FBFAE /* pedalz WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF26FBFA22BE9987003FBFAE /* ContentView.swift */,
+				CF26FBFC22BE9987003FBFAE /* HostingController.swift */,
+				CF26FBFE22BE9987003FBFAE /* ExtensionDelegate.swift */,
+				CF26FC0022BE9987003FBFAE /* NotificationController.swift */,
+				CF26FC0222BE9987003FBFAE /* NotificationView.swift */,
+				CF26FC0422BE9987003FBFAE /* ComplicationController.swift */,
+				CF26FC0622BE9987003FBFAE /* Assets.xcassets */,
+				CF26FC0B22BE9987003FBFAE /* Info.plist */,
+				CF26FC0C22BE9987003FBFAE /* PushNotificationPayload.apns */,
+				CF26FC0822BE9987003FBFAE /* Preview Content */,
+			);
+			path = "pedalz WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CF26FC0822BE9987003FBFAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF26FC0922BE9987003FBFAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF26FBE122BE9986003FBFAE /* pedalz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26FC1722BE9988003FBFAE /* Build configuration list for PBXNativeTarget "pedalz" */;
+			buildPhases = (
+				CF26FBE022BE9986003FBFAE /* Resources */,
+				CF26FC1622BE9988003FBFAE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF26FBE922BE9986003FBFAE /* PBXTargetDependency */,
+			);
+			name = pedalz;
+			productName = pedalz;
+			productReference = CF26FBE222BE9986003FBFAE /* pedalz.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CF26FBE522BE9986003FBFAE /* pedalz WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26FC1322BE9988003FBFAE /* Build configuration list for PBXNativeTarget "pedalz WatchKit App" */;
+			buildPhases = (
+				CF26FBE422BE9986003FBFAE /* Resources */,
+				CF26FC1222BE9988003FBFAE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF26FBF822BE9987003FBFAE /* PBXTargetDependency */,
+			);
+			name = "pedalz WatchKit App";
+			productName = "pedalz WatchKit App";
+			productReference = CF26FBE622BE9986003FBFAE /* pedalz WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CF26FBF422BE9987003FBFAE /* pedalz WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26FC0F22BE9988003FBFAE /* Build configuration list for PBXNativeTarget "pedalz WatchKit Extension" */;
+			buildPhases = (
+				CF26FBF122BE9987003FBFAE /* Sources */,
+				CF26FBF222BE9987003FBFAE /* Frameworks */,
+				CF26FBF322BE9987003FBFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pedalz WatchKit Extension";
+			productName = "pedalz WatchKit Extension";
+			productReference = CF26FBF522BE9987003FBFAE /* pedalz WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF26FBDC22BE9986003FBFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jorge Moura";
+				TargetAttributes = {
+					CF26FBE122BE9986003FBFAE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CF26FBE522BE9986003FBFAE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CF26FBF422BE9987003FBFAE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CF26FBDF22BE9986003FBFAE /* Build configuration list for PBXProject "pedalz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF26FBDB22BE9986003FBFAE;
+			productRefGroup = CF26FBE322BE9986003FBFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF26FBE122BE9986003FBFAE /* pedalz */,
+				CF26FBE522BE9986003FBFAE /* pedalz WatchKit App */,
+				CF26FBF422BE9987003FBFAE /* pedalz WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF26FBE022BE9986003FBFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26FBE422BE9986003FBFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26FBEF22BE9987003FBFAE /* Assets.xcassets in Resources */,
+				CF26FBED22BE9986003FBFAE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26FBF322BE9987003FBFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26FC0A22BE9987003FBFAE /* Preview Assets.xcassets in Resources */,
+				CF26FC0722BE9987003FBFAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF26FBF122BE9987003FBFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26FBFD22BE9987003FBFAE /* HostingController.swift in Sources */,
+				CF26FBFB22BE9987003FBFAE /* ContentView.swift in Sources */,
+				CF26FC0122BE9987003FBFAE /* NotificationController.swift in Sources */,
+				CF26FBFF22BE9987003FBFAE /* ExtensionDelegate.swift in Sources */,
+				CF26FC0322BE9987003FBFAE /* NotificationView.swift in Sources */,
+				CF26FC0522BE9987003FBFAE /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF26FBE922BE9986003FBFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF26FBE522BE9986003FBFAE /* pedalz WatchKit App */;
+			targetProxy = CF26FBE822BE9986003FBFAE /* PBXContainerItemProxy */;
+		};
+		CF26FBF822BE9987003FBFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF26FBF422BE9987003FBFAE /* pedalz WatchKit Extension */;
+			targetProxy = CF26FBF722BE9987003FBFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF26FBEB22BE9986003FBFAE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF26FBEC22BE9986003FBFAE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF26FC0D22BE9988003FBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF26FC0E22BE9988003FBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF26FC1022BE9988003FBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pedalz WatchKit Extension\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "pedalz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		CF26FC1122BE9988003FBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pedalz WatchKit Extension\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "pedalz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		CF26FC1422BE9988003FBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				IBSC_MODULE = pedalz_WatchKit_Extension;
+				INFOPLIST_FILE = "pedalz WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		CF26FC1522BE9988003FBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				IBSC_MODULE = pedalz_WatchKit_Extension;
+				INFOPLIST_FILE = "pedalz WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		CF26FC1822BE9988003FBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF26FC1922BE9988003FBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF26FBDF22BE9986003FBFAE /* Build configuration list for PBXProject "pedalz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26FC0D22BE9988003FBFAE /* Debug */,
+				CF26FC0E22BE9988003FBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF26FC0F22BE9988003FBFAE /* Build configuration list for PBXNativeTarget "pedalz WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26FC1022BE9988003FBFAE /* Debug */,
+				CF26FC1122BE9988003FBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF26FC1322BE9988003FBFAE /* Build configuration list for PBXNativeTarget "pedalz WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26FC1422BE9988003FBFAE /* Debug */,
+				CF26FC1522BE9988003FBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF26FC1722BE9988003FBFAE /* Build configuration list for PBXNativeTarget "pedalz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26FC1822BE9988003FBFAE /* Debug */,
+				CF26FC1922BE9988003FBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF26FBDC22BE9986003FBFAE /* Project object */;
+}
