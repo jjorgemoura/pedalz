@@ -1,0 +1,2 @@
+# pedalz
+Cadence watch app
