@@ -6,4 +6,8 @@
 //  Copyright © 2019 Jorge Moura. All rights reserved.
 //
 
-import Foundation
+struct MotionDataViewModel {
+    
+    let motionService: MotionService 
+    
+}

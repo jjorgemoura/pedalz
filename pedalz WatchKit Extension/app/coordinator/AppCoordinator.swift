@@ -6,4 +6,9 @@
 //  Copyright © 2019 Jorge Moura. All rights reserved.
 //
 
-import Foundation
+class AppCoordinator {
+    
+    func start() {
+        
+    }
+}

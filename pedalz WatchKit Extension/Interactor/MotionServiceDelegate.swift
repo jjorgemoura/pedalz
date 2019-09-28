@@ -6,4 +6,7 @@
 //  Copyright © 2019 Jorge Moura. All rights reserved.
 //
 
-import Foundation
+protocol MotionServiceDelegate {
+  
+    func motionServiceUpdated(data: PedalzData)
+}

@@ -6,4 +6,6 @@
 //  Copyright © 2019 Jorge Moura. All rights reserved.
 //
 
-import Foundation
+struct Cadence {
+    let frequency: Int
+}

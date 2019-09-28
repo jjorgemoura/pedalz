@@ -6,4 +6,16 @@
 //  Copyright © 2019 Jorge Moura. All rights reserved.
 //
 
-import Foundation
+class AppCore {
+    
+    var coordinator: AppCoordinator?
+    var appStateKit: AppStateKit?
+    
+    func startup() {
+        
+        let cloudService: String
+        
+        coordinator = AppCoordinator()
+        appStateKit = AppStateKit(startupState: AppState.emptyLaunchState())
+    }
+}

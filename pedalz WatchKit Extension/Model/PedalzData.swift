@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct PedalzData {
+    let cadence: Cadence
+    let trend: CadenceTrend
+    let altitude: String
+}

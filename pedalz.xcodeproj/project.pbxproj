@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF16FF2C22C41A57006A845A /* MotionManagerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16FF2B22C41A57006A845A /* MotionManagerBuilder.swift */; };
 		CF26FBE722BE9986003FBFAE /* pedalz WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF26FBE622BE9986003FBFAE /* pedalz WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF26FBED22BE9986003FBFAE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF26FBEB22BE9986003FBFAE /* Interface.storyboard */; };
 		CF26FBEF22BE9987003FBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26FBEE22BE9987003FBFAE /* Assets.xcassets */; };
 		CF26FBF622BE9987003FBFAE /* pedalz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF26FBF522BE9987003FBFAE /* pedalz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CF26FBFB22BE9987003FBFAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFA22BE9987003FBFAE /* ContentView.swift */; };
+		CF26FBFB22BE9987003FBFAE /* CadenceContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFA22BE9987003FBFAE /* CadenceContentView.swift */; };
 		CF26FBFD22BE9987003FBFAE /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFC22BE9987003FBFAE /* HostingController.swift */; };
 		CF26FBFF22BE9987003FBFAE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FBFE22BE9987003FBFAE /* ExtensionDelegate.swift */; };
 		CF26FC0122BE9987003FBFAE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FC0022BE9987003FBFAE /* NotificationController.swift */; };
@@ -19,6 +20,17 @@
 		CF26FC0522BE9987003FBFAE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26FC0422BE9987003FBFAE /* ComplicationController.swift */; };
 		CF26FC0722BE9987003FBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26FC0622BE9987003FBFAE /* Assets.xcassets */; };
 		CF26FC0A22BE9987003FBFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26FC0922BE9987003FBFAE /* Preview Assets.xcassets */; };
+		CF3CF39322C8C44E0060B5F6 /* OSLog+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3CF39222C8C44E0060B5F6 /* OSLog+.swift */; };
+		CF48EDCF22D24F8900E6B9C0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48EDCE22D24F8900E6B9C0 /* AppState.swift */; };
+		CF48EDD122D2504700E6B9C0 /* AppStateKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48EDD022D2504700E6B9C0 /* AppStateKit.swift */; };
+		CF48EDD422D2539000E6B9C0 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48EDD322D2539000E6B9C0 /* AppCoordinator.swift */; };
+		CF48EDD622D253BC00E6B9C0 /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48EDD522D253BC00E6B9C0 /* AppCore.swift */; };
+		CF7AD84D22C8D06A00B6F20D /* MotionServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AD84C22C8D06A00B6F20D /* MotionServiceDelegate.swift */; };
+		CF7AD84F22C8D0CC00B6F20D /* PedalzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AD84E22C8D0CC00B6F20D /* PedalzData.swift */; };
+		CFA2E25222C1687E005643EB /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2E25122C1687E005643EB /* Cadence.swift */; };
+		CFA2E25522C169F1005643EB /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2E25422C169F1005643EB /* MotionService.swift */; };
+		CFA2E25722C1739C005643EB /* CadenceTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2E25622C1739C005643EB /* CadenceTrend.swift */; };
+		CFC4373A22C2D39C0024D742 /* MotionDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC4373922C2D39C0024D742 /* MotionDataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +76,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF16FF2B22C41A57006A845A /* MotionManagerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManagerBuilder.swift; sourceTree = "<group>"; };
 		CF26FBE222BE9986003FBFAE /* pedalz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pedalz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF26FBE622BE9986003FBFAE /* pedalz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pedalz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF26FBEC22BE9986003FBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		CF26FBEE22BE9987003FBFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF26FBF022BE9987003FBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF26FBF522BE9987003FBFAE /* pedalz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pedalz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF26FBFA22BE9987003FBFAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF26FBFA22BE9987003FBFAE /* CadenceContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadenceContentView.swift; sourceTree = "<group>"; };
 		CF26FBFC22BE9987003FBFAE /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		CF26FBFE22BE9987003FBFAE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		CF26FC0022BE9987003FBFAE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -80,6 +93,17 @@
 		CF26FC0922BE9987003FBFAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF26FC0B22BE9987003FBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF26FC0C22BE9987003FBFAE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CF3CF39222C8C44E0060B5F6 /* OSLog+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSLog+.swift"; sourceTree = "<group>"; };
+		CF48EDCE22D24F8900E6B9C0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CF48EDD022D2504700E6B9C0 /* AppStateKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateKit.swift; sourceTree = "<group>"; };
+		CF48EDD322D2539000E6B9C0 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CF48EDD522D253BC00E6B9C0 /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		CF7AD84C22C8D06A00B6F20D /* MotionServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionServiceDelegate.swift; sourceTree = "<group>"; };
+		CF7AD84E22C8D0CC00B6F20D /* PedalzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalzData.swift; sourceTree = "<group>"; };
+		CFA2E25122C1687E005643EB /* Cadence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
+		CFA2E25422C169F1005643EB /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		CFA2E25622C1739C005643EB /* CadenceTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadenceTrend.swift; sourceTree = "<group>"; };
+		CFC4373922C2D39C0024D742 /* MotionDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +117,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF16FF2922C4190A006A845A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF26FBFA22BE9987003FBFAE /* CadenceContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF16FF2A22C41A3B006A845A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF3CF39022C8C3E10060B5F6 /* extensions */,
+				CF16FF2B22C41A57006A845A /* MotionManagerBuilder.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		CF26FBDB22BE9986003FBFAE = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +166,12 @@
 		CF26FBF922BE9987003FBFAE /* pedalz WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CF26FBFA22BE9987003FBFAE /* ContentView.swift */,
+				CF48EDCC22D24F5900E6B9C0 /* app */,
+				CFA2E25322C169D5005643EB /* Interactor */,
+				CFA2E25022C16866005643EB /* Model */,
+				CFC4373822C2D3860024D742 /* ViewModel */,
+				CF16FF2922C4190A006A845A /* Views */,
+				CF16FF2A22C41A3B006A845A /* Utilities */,
 				CF26FBFC22BE9987003FBFAE /* HostingController.swift */,
 				CF26FBFE22BE9987003FBFAE /* ExtensionDelegate.swift */,
 				CF26FC0022BE9987003FBFAE /* NotificationController.swift */,
@@ -145,6 +191,68 @@
 				CF26FC0922BE9987003FBFAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF3CF39022C8C3E10060B5F6 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF3CF39222C8C44E0060B5F6 /* OSLog+.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		CF48EDCC22D24F5900E6B9C0 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				CF48EDCD22D24F6500E6B9C0 /* appState */,
+				CF48EDD222D2537E00E6B9C0 /* coordinator */,
+				CF48EDD522D253BC00E6B9C0 /* AppCore.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		CF48EDCD22D24F6500E6B9C0 /* appState */ = {
+			isa = PBXGroup;
+			children = (
+				CF48EDD022D2504700E6B9C0 /* AppStateKit.swift */,
+				CF48EDCE22D24F8900E6B9C0 /* AppState.swift */,
+			);
+			path = appState;
+			sourceTree = "<group>";
+		};
+		CF48EDD222D2537E00E6B9C0 /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CF48EDD322D2539000E6B9C0 /* AppCoordinator.swift */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
+		CFA2E25022C16866005643EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFA2E25122C1687E005643EB /* Cadence.swift */,
+				CFA2E25622C1739C005643EB /* CadenceTrend.swift */,
+				CF7AD84E22C8D0CC00B6F20D /* PedalzData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFA2E25322C169D5005643EB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CFA2E25422C169F1005643EB /* MotionService.swift */,
+				CF7AD84C22C8D06A00B6F20D /* MotionServiceDelegate.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CFC4373822C2D3860024D742 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4373922C2D39C0024D742 /* MotionDataViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +383,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF48EDD622D253BC00E6B9C0 /* AppCore.swift in Sources */,
+				CFA2E25222C1687E005643EB /* Cadence.swift in Sources */,
 				CF26FBFD22BE9987003FBFAE /* HostingController.swift in Sources */,
-				CF26FBFB22BE9987003FBFAE /* ContentView.swift in Sources */,
+				CF48EDD422D2539000E6B9C0 /* AppCoordinator.swift in Sources */,
+				CF7AD84D22C8D06A00B6F20D /* MotionServiceDelegate.swift in Sources */,
+				CF7AD84F22C8D0CC00B6F20D /* PedalzData.swift in Sources */,
+				CF3CF39322C8C44E0060B5F6 /* OSLog+.swift in Sources */,
+				CF26FBFB22BE9987003FBFAE /* CadenceContentView.swift in Sources */,
+				CF48EDD122D2504700E6B9C0 /* AppStateKit.swift in Sources */,
+				CF48EDCF22D24F8900E6B9C0 /* AppState.swift in Sources */,
+				CF16FF2C22C41A57006A845A /* MotionManagerBuilder.swift in Sources */,
 				CF26FC0122BE9987003FBFAE /* NotificationController.swift in Sources */,
+				CFA2E25522C169F1005643EB /* MotionService.swift in Sources */,
+				CFC4373A22C2D39C0024D742 /* MotionDataViewModel.swift in Sources */,
+				CFA2E25722C1739C005643EB /* CadenceTrend.swift in Sources */,
 				CF26FBFF22BE9987003FBFAE /* ExtensionDelegate.swift in Sources */,
 				CF26FC0322BE9987003FBFAE /* NotificationView.swift in Sources */,
 				CF26FC0522BE9987003FBFAE /* ComplicationController.swift in Sources */,
@@ -361,6 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -414,6 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +559,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -461,6 +584,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -480,6 +604,7 @@
 				DEVELOPMENT_TEAM = 6CHZFW8V57;
 				IBSC_MODULE = pedalz_WatchKit_Extension;
 				INFOPLIST_FILE = "pedalz WatchKit App/Info.plist";
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -499,6 +624,7 @@
 				DEVELOPMENT_TEAM = 6CHZFW8V57;
 				IBSC_MODULE = pedalz_WatchKit_Extension;
 				INFOPLIST_FILE = "pedalz WatchKit App/Info.plist";
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -512,12 +638,14 @@
 		CF26FC1822BE9988003FBFAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6CHZFW8V57;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Pedalz Development Profile";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -525,12 +653,14 @@
 		CF26FC1922BE9988003FBFAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6CHZFW8V57;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.pedalz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Pedalz Development Profile";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

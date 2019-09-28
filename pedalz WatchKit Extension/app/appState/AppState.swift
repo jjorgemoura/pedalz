@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct AppState: Equatable {
+    
+    let beginDate: Date?
+    let finishDate: Date?
+    
+    static func emptyLaunchState() -> AppState {
+        return AppState(beginDate: nil, finishDate: nil)
+    }
+}

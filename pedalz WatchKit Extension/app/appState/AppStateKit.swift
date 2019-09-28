@@ -6,4 +6,17 @@
 //  Copyright © 2019 Jorge Moura. All rights reserved.
 //
 
-import Foundation
+class AppStateKit {
+
+    private var state: AppState
+    
+    init(startupState: AppState) {
+        self.state = startupState
+    }
+    
+    func update(with newState: AppState) {
+        if state != newState {
+            state = newState
+        }
+    }
+}
